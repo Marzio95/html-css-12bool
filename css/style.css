@@ -1,0 +1,12 @@
+[class*="col-"]{
+    background-color: aqua;
+    border: 1px solid white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size:xx-large;
+}
+
+
+

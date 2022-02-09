@@ -1,0 +1,23 @@
+[class*="col-"]{
+    background-color: grey;
+    height: 70px;
+    text-align: center;
+}
+
+body{
+    width: 1000px;
+    margin: auto;
+}
+
+.space-white{
+    height: 100px;
+}
+
+.red{
+    background: red;
+}
+
+.space-bottom{
+    height: 100px;
+}
+

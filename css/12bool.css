@@ -147,6 +147,10 @@
 /* MEDIA TABLET md */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+.col-md{
+     flex: 1 1 0;
+     max-width: 100%;
+}    
     
 .col-md-1{
     flex-basis: calc((100% / 12) * 1);
@@ -265,6 +269,11 @@
 /* MEDIA CELL sm */
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
+
+    .col-sm{
+        flex: 1 1 0;
+        max-width: 100%;
+   }    
     
     .col-sm-1{
         flex-basis: calc((100% / 12) * 1);
@@ -382,6 +391,11 @@
     
 /* MEDIA CELLEXTRASMALL xs */
 @media screen and (min-width: 0px) and (max-width: 575px) {
+
+    .col-xs{
+        flex: 1 1 0;
+        max-width: 100%;
+   }    
 
    
     .col-xs-1{

@@ -20,6 +20,12 @@
     flex: 0 0 auto;
 }
 
+.col{
+    flex: 1 1 0;
+    max-width: 100%;
+}
+
+
 /* FRAMEWORK DESKTOP lg */
 
 
@@ -377,7 +383,7 @@
 /* MEDIA CELLEXTRASMALL xs */
 @media screen and (min-width: 0px) and (max-width: 575px) {
 
-    
+   
     .col-xs-1{
         flex-basis: calc((100% / 12) * 1);
         max-width: calc((100% / 12) * 1);
